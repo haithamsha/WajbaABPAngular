@@ -1,7 +1,6 @@
 {
   "name": "Wajba",
   "version": "0.0.0",
-  
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -36,7 +35,7 @@
     "@angular/platform-browser": "~18.1.0",
     "@angular/platform-browser-dynamic": "~18.1.0",
     "@angular/router": "~18.1.0",
-    "@ng-bootstrap/ng-bootstrap": "^18.0.0",
+    "@ng-bootstrap/ng-bootstrap": "^17.0.1",
     "bootstrap-icons": "~1.8.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.0.0",
