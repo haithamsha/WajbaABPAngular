@@ -1,14 +1,20 @@
 {
   "name": "Wajba",
   "version": "0.0.0",
+  
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
+    "start": "node server.js",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "heroku-postbuild": "ng build --prod"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   },
   "private": true,
   "dependencies": {
